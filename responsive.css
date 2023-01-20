@@ -1,0 +1,156 @@
+
+@media screen and (max-width:576px){
+
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .menulist{
+        display: none;
+    }
+    .menuICon{
+        display: none;
+    }
+    
+    .hero-section{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .left-hero-section{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    
+    }
+
+    .right-hero-section {
+        width: 100%;
+        margin-top: 30px;
+
+    }
+    .right-hero-section img{
+        width: 100%;
+    }
+    /* .sponser-logo{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 auto;
+    } */
+    .collection-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        }
+        .newsletter{
+          flex-direction: column;
+          flex-direction: column-reverse;
+        }
+        .iteam1 img{
+              width: 100%;
+              padding: 0 5px;
+        }
+        .seemoreBtn{    
+            margin-top: 50px; 
+            margin-bottom: 50px;  
+        }
+        .btn{
+            width: 120px;
+            height: 40px;
+            background-color: var(--primaryColor);
+            color: white;
+            border: none;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 10px;
+         
+         }
+         .left-hero-pera{
+            width: 100%;
+            padding: 0px 15px;
+            
+        }
+        .hero-section-title{
+            width: 100%;
+            padding: 0 15px;
+
+        }
+    
+}
+
+@media screen and (max-width:870px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .menulist{
+        display: none;
+    }
+    .menuICon{
+        display: block;
+    }
+
+    .hero-section{
+        flex-direction: column;
+        
+    }
+    .left-hero-section{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    
+    }
+
+    .right-hero-section {
+        width: 100%;
+        margin-top: 30px;
+
+    }
+    .right-hero-section img{
+        width: 100%;
+    }
+    .left-hero-pera{
+       
+        margin: 0 auto;
+        width: 80%;
+        padding: 10px 15px;
+        
+    }
+    .hero-section-title{
+        width: 100%;
+        padding: 0 15px;
+
+    }
+    .newsletter{
+        flex-direction: column;
+        gap: 10;
+        flex-direction: column-reverse;
+      }
+      .iteam1 img{
+            width: 100%;
+            padding: 0 0px;
+      }
+      .hh{
+        display: block;
+    }
+    .signBT{
+        display: none;
+    }
+  
+
+    
+}
+
+@media screen and (max-width:375px) {
+    .logo{
+        font-size: 20px;
+        line-height: 35px;
+        font-weight: 600;
+        
+    }  
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 0px 0px 0px ;
+        align-items: center;
+    }
+}
